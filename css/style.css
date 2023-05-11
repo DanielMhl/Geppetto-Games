@@ -1,15 +1,23 @@
-/* Reseta as magens da página */
-
+/* Reseta as margens da página */
 body {
     margin: 0%;
 }
 
-hover:a {
-    color: aqua;
+html,
+body {
+    height: 100%;
+}
+
+
+a:hover {
+    color: rgb(0, 0, 0) !important;
+}
+
+#secao4 p {
+    font-weight: bold;
 }
 
 /* flip card */
-
 .card-flip>div {
     backface-visibility: hidden;
     transition: transform 300ms;
