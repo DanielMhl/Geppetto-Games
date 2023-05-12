@@ -1,0 +1,53 @@
+@media (max-width: 1200px) {
+
+   
+}
+
+
+@media (max-width: 800px) {
+
+
+    .carousel-inner img {
+        min-width: 400px;
+
+    }
+}
+
+
+@media (max-width: 560px) {
+
+    #secao1 .col-6{
+
+       padding: -10px;
+
+    }
+}
+
+@media (max-width: 480px) {
+
+
+    .carousel-inner img {
+        min-width: 300px;
+
+    }
+
+}
+
+
+@media (max-width: 390px){
+
+
+    .carousel-inner img {
+        min-width: 250px;
+
+    }
+}
+
+@media (max-width: 290px){
+
+
+    .carousel-inner img {
+        min-width: 250px;
+
+    }
+}

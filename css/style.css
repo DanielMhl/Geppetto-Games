@@ -1,6 +1,7 @@
 /* Reseta as margens da página */
 body {
     margin: 0%;
+    overflow-X: hidden;
 }
 
 html,
@@ -12,6 +13,40 @@ body {
 a:hover {
     color: rgb(0, 0, 0) !important;
 }
+
+#secao1{
+    background-image: linear-gradient(to right, #16081F, #4E2476);
+    color: #FFFFFF;
+
+}
+
+#secao1 .row{
+    display: flex;
+    justify-content: center;
+}
+
+#secao1 .col-sm-6{ 
+    display: flex;
+    justify-content: center;
+   
+}
+
+#secao1 .col-sm-6 img{ 
+     min-width: 200px;
+   
+}
+
+
+#secao1 #contentbv{ 
+    margin-top: 25px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    justify-content: center;
+      
+}
+
 
 #secao4 p {
     font-weight: bold;
@@ -45,3 +80,4 @@ a:hover {
 .card-flip:hover .card-back {
     transform: rotateY(0deg);
 }
+
