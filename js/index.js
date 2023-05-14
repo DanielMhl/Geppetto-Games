@@ -2,7 +2,7 @@
 
 
 
-const botaoMenu = document.querySelector(".nav-bar");
+const botaoMenu = document.querySelector(".button-menu");
 
 const subMenu = document.getElementById("sub-menu");
 
@@ -34,7 +34,6 @@ fecharM.addEventListener("click", () => {
     fecharM.classList.remove("ativado");
 
  });
-
 
 
  subLink1.addEventListener("click", () => {

@@ -10,8 +10,12 @@
         display: none;
     }
 
-    #menu .nav-bar{
+    #menu .button-menu{
         display: block;
+    }
+
+    #secao4 .col-lg-6 img {
+        padding-left: 20%;
     }
 }
 
@@ -24,7 +28,14 @@
 
     }
 }
+@media (max-width: 767px){
 
+
+#secao4 .col-lg-6 img {
+    padding-left: 0%;
+}
+
+}
 
 @media (max-width: 768px){
 
@@ -37,6 +48,7 @@
         width: 25%;
         padding: 10px;
     }
+
 
 }
 
@@ -55,14 +67,15 @@
 
 }
 
-@media (max-width: 590px){
+/* @media (max-width: 575px){
 
-#secao1 .col-6{
+#secao1 #contentbv .logo-banner{
 
+    min
    
 }
 
-}
+} */
 
 
 @media (max-width: 560px) {
