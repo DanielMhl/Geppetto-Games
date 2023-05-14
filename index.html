@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/fontawesome/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-JwdwH+7oYaJ3sFV7twT9EynBveT8n05pCzR7I+bNpEw1xb8MQXXiCldPjz9mjp2mVt8rn1YGmK10tL">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,14 +18,77 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <link rel="icon" href="images/geppetto.png">
 
-<body>
+<body class="corpo">
 
-    <!-- Navbar -->
-    <nav id=" topnavbar" class="navbar navbar-expand-lg" style="background-color: #7900ca;">
+     <!-- Navbar -->
+
+
+    <nav id="menu" class="navbar fixed-top navbar-expand-lg" style="background-color: #7900ca;">
+
+        <div class="container-fluid">
+
+            <img class="navbar-logo" src="images/logo_nav.png"></img>
+
+            <i class="nav-bar fa-solid fa-bars"></i>
+        
+        <ul class="nav justify-content-end">
+            <li class="nav-item">
+                <a class="nav-link text-white" href="#secao1">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="#secao2">Jogos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="#secao3">Equipe</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="#secao4">Sobre</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="#secao5">Contato</a>
+            </li>
+
+        </ul>
+
+        </div>
+
+
+    </nav>
+
+    <nav id="sub-menu"  style="background-color: #27033f;">
+
+
+        <div class="container-fluid">
+        
+        <ul class="nav flex-column text-center">
+            <li class="nav-item">
+                <a id="sub-link1" class="nav-link text-white" href="#secao1">Home</a>
+            </li>
+            <li class="nav-item">
+                <a id="sub-link2" class="nav-link text-white" href="#secao2">Jogos</a>
+            </li>
+            <li class="nav-item">
+                <a id="sub-link3" class="nav-link text-white" href="#secao3">Equipe</a>
+            </li>
+            <li class="nav-item">
+                <a id="sub-link4" class="nav-link text-white" href="#secao4">Sobre</a>
+            </li>
+            <li class="nav-item">
+                <a id="sub-link5" class="nav-link text-white" href="#secao5">Contato</a>
+            </li>
+        </ul>
+
+        </div>
+    </nav>
+
+    <div class="fechar-menu"></div>
+
+    <!-- <nav id="topnavbar" class="navbar fixed-top navbar-expand-lg" style="background-color: #7900ca;">
+        
         <div class="container-fluid">
             <img class="navbar-logo" src="images/logo_nav.png"></img>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <i class="fa-solid fa-bars"></i>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
@@ -46,9 +110,10 @@
                 </ul>
             </div>
         </div>
-    </nav>
+    </nav> -->
 
     <!-- Seção 1 -->
+
     <div id="secao1" class="container-fluid" style="padding: 50px;">
         <div class="row">
             <div class="col-sm-6">
@@ -68,7 +133,7 @@
     <div id="secao2" class="container-fluid" style="background-color: #e6e6e6; padding: 50px;">
         <div class="row">
             <div class="col-sm-12">
-                <h2 style="text-align: center;">Galeria de Imagens</h2>
+                <h2 style="text-align: center;">Galeria de Jogos</h2>
             </div>
         </div>
         <div class="row">
@@ -109,7 +174,7 @@
     <div id="secao3" class="container-fluid" style="background-color: #f2f2f2; padding: 50px;">
         <div class="row">
             <div class="col text-center">
-                <h2>Conheça nosso time</h2>
+                <h2 class="mb-4">Conheça nosso time</h2>
             </div>
         </div>
         <div class="row mt-2">
@@ -260,7 +325,8 @@
     <section id="secao4" class="container py-5">
         <div class="row">
             <div class="col-lg-6">
-                <img src="https://placehold.co/400x400" class="img-fluid" alt="Imagem de contato">
+                <!-- src="https://placehold.co/400x400" -->
+                <img src="images/geppetto.png" class="img-fluid" alt="Imagem de contato">
             </div>
             <div class="col-lg-6 align-self-center">
                 <h2 class="text-center mb-4">Sobre Nós</h2>
@@ -313,9 +379,12 @@
     </footer>
 
     <!-- Scripts -->
+
+    <script src="js/index.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"></script>
+
 
 </body>
 
