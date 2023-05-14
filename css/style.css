@@ -92,7 +92,7 @@ a:hover {
     padding: 15px;
 }
 #sub-menu a:hover {
-    color: aquamarine !important;
+    color: #7fffd4 !important;
 }
 
 #sub-menu ul {
@@ -150,7 +150,7 @@ a:hover {
 }
 
 #secao1 .col-6{
-    background-color: aquamarine;
+    /* background-color: #7fffd4; */
 
 }
 
@@ -161,7 +161,7 @@ a:hover {
     display: flex;
     flex-direction: column;
     text-align: justify;
-    background-color: bisque;
+    /* background-color: #ffe4c4; */
 
 }
 
