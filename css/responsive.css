@@ -1,5 +1,9 @@
 @media (max-width: 1200px) {
 
+    #secao2 {
+        max-height: 80%;
+        
+    }
    
 }
 
@@ -12,6 +16,11 @@
 
     #menu .button-menu{
         display: block;
+    }
+
+    #secao2 {
+        max-height: 70%;
+        
     }
 
     #secao4 .col-lg-6 img {
@@ -38,6 +47,11 @@
 }
 
 @media (max-width: 768px){
+
+    #secao2 .carousel-inner h2{
+        font-size: 14pt;
+
+    }
 
     #secao3 .col-lg-3{
         width: 50%;
@@ -67,15 +81,6 @@
 
 }
 
-/* @media (max-width: 575px){
-
-#secao1 #contentbv .logo-banner{
-
-    min
-   
-}
-
-} */
 
 
 @media (max-width: 560px) {
@@ -85,7 +90,13 @@
        padding: -10px;
 
     }
+
+    #secao2 .carousel-inner h2{
+        font-size: 12pt;
+
+    }
 }
+
 
 @media (max-width: 480px) {
 
@@ -103,11 +114,30 @@
 }
 
 
+@media (max-width: 420px){
+
+    .carousel-inner img {
+        min-width: 250px;
+
+    }
+
+}
+
+@media (max-width: 370px){
+
+    .carousel-inner img {
+        min-width: 230px;
+
+    }
+
+}
+
+
 @media (max-width: 390px){
 
 
     .carousel-inner img {
-        min-width: 250px;
+        min-width: 210px;
 
     }
 
@@ -118,11 +148,33 @@
     }
 }
 
-@media (max-width: 290px){
+
+@media (max-width: 330px){
 
 
     .carousel-inner img {
-        min-width: 250px;
+        min-width: 200px;
 
     }
+
+}
+
+@media (max-width: 320px){
+
+
+    .carousel-inner img {
+        min-width: 100%;
+
+    }
+
+}
+
+
+@media (max-width: 284px){
+
+    #menu img{
+        
+        width: 70%;
+    }
+    
 }

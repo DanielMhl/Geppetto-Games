@@ -1,12 +1,10 @@
 /* Reseta as margens da página */
 
 html {
-
     scroll-behavior: smooth;
 }
 
 ul {
-
     list-style: none;
 }
 
@@ -20,9 +18,7 @@ body {
 }
 
 .corpo.scroll {
-
     overflow: hidden;
-
 }
 
 
@@ -30,12 +26,6 @@ html,
 body {
     height: 100%;
 }
-
-/* .navbar-toggler-icon {
-    background-color: aqua;
-} */
-
-
 
 #menu a:hover {
     color: rgb(0, 0, 0) !important;
@@ -81,12 +71,10 @@ body {
 
 }
 
-
 #sub-menu a {
     /* #6e0766 */
     /* background-color: #180325; */
     border-bottom: 1px solid #c4c5c4;
-    ;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -107,10 +95,18 @@ body {
     color: #7fffd4 !important;
 }
 
-/* body::-webkit-scrollbar{
+body::-webkit-scrollbar {
     width: 10px;
-    background-color: #490eb6;
-} */
+ 
+}
+
+body::-webkit-scrollbar-track {
+    background: rgb(228, 227, 226);    
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #520386;
+  }
 
 .fechar-menu {
     visibility: hidden;
@@ -131,7 +127,6 @@ body {
 #secao1 {
     background-image: linear-gradient(to right, #16081F, #4E2476);
     color: #FFFFFF;
-
 }
 
 #secao1 .col-sm-6 {
@@ -146,26 +141,26 @@ body {
 
 }
 
-#secao1 .col-6 {
-    /* background-color: #7fffd4; */
-
-}
-
 #secao1 #contentbv {
+    width: 100%;
     margin-top: 25px;
-    padding: 25px;
     display: flex;
     flex-direction: column;
     /* background-color: #ffe4c4; */
 
 }
 
-#secao1 #contentbv .logo-banner {
 
+#secao1 #contentbv .logo-banner {
     min-width: 150px;
 }
 
 
+#secao2 {
+    overflow: hidden;
+    height: 92%;
+    
+}
 #secao2 .carousel-inner .carousel-item {
     align-items: center;
 }
@@ -175,7 +170,6 @@ body {
 }
 
 #secao2 .carousel-inner h2 {
-    background-color: #782E83;
     width: 24%;
     padding: 5px;
     font-size: 16pt;
