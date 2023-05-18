@@ -97,16 +97,16 @@ body {
 
 body::-webkit-scrollbar {
     width: 10px;
- 
+
 }
 
 body::-webkit-scrollbar-track {
-    background: rgb(228, 227, 226);    
-  }
-  
-  body::-webkit-scrollbar-thumb {
+    background: rgb(228, 227, 226);
+}
+
+body::-webkit-scrollbar-thumb {
     background-color: #520386;
-  }
+}
 
 .fechar-menu {
     visibility: hidden;
@@ -159,8 +159,36 @@ body::-webkit-scrollbar-track {
 #secao2 {
     overflow: hidden;
     height: 92%;
-    
+    padding: 50px;
+    color: #FFFFFF;
+    animation-name: backgroundSecao1;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: left;
 }
+
+@keyframes backgroundSecao1 {
+    0% {
+        background: #6b00b3;
+    }
+
+    25% {
+        background: #480079;
+    }
+
+    50% {
+        background: #2f004e;
+    }
+
+    75% {
+        background: #480079;
+    }
+
+    100% {
+        background: #6b00b3;
+    }
+}
+
 #secao2 .carousel-inner .carousel-item {
     align-items: center;
 }
@@ -180,6 +208,41 @@ body::-webkit-scrollbar-track {
     padding-top: 10em;
 }
 
+#secao3 {
+    background-color: #f2f2f2;
+    padding: 50px;
+}
+
+#secao4 {
+    color: white;
+    animation-name: backgroundSecao4;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: left;
+}
+
+@keyframes backgroundSecao4 {
+    0% {
+        background: #6b00b3;
+    }
+
+    25% {
+        background: #480079;
+    }
+
+    50% {
+        background: #2f004e;
+    }
+
+    75% {
+        background: #480079;
+    }
+
+    100% {
+        background: #6b00b3;
+    }
+}
+
 #secao4 p {
     font-weight: bold;
 }
@@ -188,6 +251,10 @@ body::-webkit-scrollbar-track {
     width: 500px;
 }
 
+#secao5 {
+    background-color: #49007956;
+    color: white;
+}
 
 
 /* flip card */
@@ -223,27 +290,16 @@ body::-webkit-scrollbar-track {
 /* Responsividade do iframe mapa */
 
 #map-responsive {
-
     overflow: hidden;
-
     padding-bottom: 45%;
-
     position: relative;
-
     height: 0;
-
 }
 
 #map-responsive iframe {
-
     left: 5%;
-
     top: 0;
-
     height: 80%;
-
     width: 80%;
-
     position: absolute;
-
 }
